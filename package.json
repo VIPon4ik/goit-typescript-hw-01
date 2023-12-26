@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@web/dev-server": "^0.4.1"
+  },
+  "name": "ts-courses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "camelcase": "^6.3.0",
+    "command-line-args": "^5.2.1",
+    "command-line-usage": "^7.0.1",
+    "debounce": "^1.2.1",
+    "deepmerge": "^4.3.1",
+    "ip": "^1.1.8",
+    "nanocolors": "^0.2.13",
+    "open": "^8.4.2",
+    "portfinder": "^1.0.32"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
